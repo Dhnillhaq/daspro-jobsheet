@@ -8,7 +8,6 @@ public class DoWhileCuti18 {
         String konfirmasi;
         System.out.print("Jatah cuti: ");
         jatahCuti = sc.nextInt();
-
          do {
             System.out.print("Apakah anda ingin mengambil cuti (y/t)? ");
             konfirmasi = sc.next();
