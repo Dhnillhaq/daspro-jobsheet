@@ -5,7 +5,7 @@ public class LinearSearch18 {
         Scanner sc = new Scanner(System.in);
         int arrayLength;
         int key;
-        int hasil = 0;
+        int hasil = -1;
         System.out.print("Masukkan Jumlah Element: ");
         arrayLength = sc.nextInt();
         int[] arrayInt = new int[arrayLength];
@@ -21,9 +21,9 @@ public class LinearSearch18 {
                 hasil = j;
                 System.out.println("Key ada dalam array pada posisi indeks ke-" + hasil);
                 break;
-            }
+            } 
         }
-        if (hasil == 0) {
+        if (hasil == -1) {
             System.out.println("Key tidak ditemukan");
         }
     }
