@@ -50,7 +50,7 @@ public class BioskopWithScanner18 {
                             penonton[i][j] = "***";
                         }
                         }
-                    System.out.println(String.join("\t ", penonton[i]));
+                    System.out.println(String.join("|\t |", penonton[i]));
                     }
                     break;
                 default:
