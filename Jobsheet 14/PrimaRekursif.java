@@ -6,7 +6,7 @@ public class PrimaRekursif {
         int n;
         System.out.print("Masukkan Bilangan yang anda ingin check: ");
         n = sc.nextInt();
-        int f = 21;
+        int f = 2;
         prima(n, f);
     }
     static void prima(int n, int f){

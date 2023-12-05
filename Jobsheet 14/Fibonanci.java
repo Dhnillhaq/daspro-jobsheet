@@ -1,7 +1,7 @@
 public class Fibonanci {
     public static void main(String[] args) {
-        for (int i = 0; i < 12; i++) {
-            System.out.println("Bulan ke- " + (i + 1) + ", berjumlah: " + fibonanci(i + 1) + " Pasangan");
+        for (int i = 1; i <= 12; i++) {
+            System.out.println("Bulan ke- " + (i) + ", berjumlah: " + fibonanci(i) + " Pasangan");
         }
     }
 
